@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>PickleBallWithFriends</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/playerStyles.css">
+</head>
+
+<body>
+<hr>
+  <h1> Player Database  </h1>
+    <a>Choose with whom you would like to play:</a>
+      <hr>
+    
+      <div class="cards" style="text-align: center">
+      <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="assets/img/Brandon.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title" >Brandon Brown</h5>
+                <p class="card-text">Male - Seldom plays.  3.5 level player.</p>
+                <!-- <a href="#" class="btn btn-primary">Choose this player</a> -->
+                <!-- <input type="button" id="btn2" class="btn btn-primary player" value="Choose This Player" /> -->
+                <button type="button" class="btn btn-primary" id="bb">Choose this player</button>
+            </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="assets/img/Mark.PNG" alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title"  >Mark Brown</h5>
+            <p class="card-text">Male - Seldom plays.  3.5 level player.</p>
+            <button type="button" class="btn btn-primary" id="mb">Choose this player</button>
+            </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="assets/img/Lauri.jpg" alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title" >Lauri Brown</h5>
+            <p class="card-text">Female - Plays weekly.  3.5 level player. Available often.</p>
+            <button type="button" class="btn btn-primary" id="lb">Choose this player</button>
+            </div>
+      </div>
+    </div>
+<hr>
+              
+  <table id="playerChoices">
+        <h3>Your Player Choices:</h3>
+        <tr><td id="p1">Open</td><td></td></tr>
+        <tr><td id="p2">Open</td><td></td></tr>
+        <tr><td id="p3">Open</td><td></td></tr>
+        <tr><td id="p4">Open</td><td></td></tr>
+      </table> 
+
+      <input type="datetime-local" name="datetime" id="datetime">
+
+      
+
+
+              <footer>
+                
+                <p>Copyright Henlopen Hackers - All Rights Reserved</p>
+                <ul style="list-style-type:none">
+                    <li><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fa fa-snapchat-square fa-2x"></i></a></li>
+                </ul>
+          </footer>
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script rel="text/javascript" src="assets/js/player2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    </body>
+    </html>
+
+ <!-- <div>
+            <ul style="list-style-type:none">
+            <li><a href="#">Joe Blow</a></li>
+            <li><a href="#">Mary Smith</a></li>
+            <li><a href="#">Jack Sprat</a></li>
+            <li><a href="#">Charlie Angel  </a></li>  
+        </ul>   
+        </div>
+
+        <table>
+                <tr><td>Ed</td><td>Male</td></tr>
+                <tr><td>Albert</td><td>Male</td></tr>
+                <tr><td>Jane</td><td>Female</td></tr>
+                <tr><td>William</td><td>Male</td></tr>
+              </table> -->
+              <!--
+              <form action>
+                <input type="checkbox" name="player1" value="Bike"> Mark Brown<br>
+                <input type="checkbox" name="player2" value="Car" checked> Susan Rattner<br>
+                <input type="checkbox" name="player3" value="Boat" > John Poudrier<br><br>
+                <input type="submit" value="Submit">
+              </form>
+
+<div id="test"><a>Number of Players In Your Match:</a></div>
+
+  <script>
+    document.getElementById("test").addEventListener("click", function( event ) {
+      // display the current click count inside the clicked div
+      event.target.textContent = "Number of Players Chosen: " + event.detail;
+    }, false);
+  </script>
+
+
+
+            -->
